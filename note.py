@@ -4,3 +4,5 @@ print("Welcome back")
 #Pedimos el igreso de numeros
 a = int(input("Ingese el primer número : "))
 b = int(input("Ingrese el segundo número"))
+#proceso de la suma 
+suma = a +b
