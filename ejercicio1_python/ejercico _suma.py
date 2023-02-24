@@ -8,3 +8,6 @@ for a in range(1, numero):
     #Realizamos la suma del numero actual y el anterior
     suma = numero + (numero -1)
 
+    #Mostramos la suma
+    print("La suma de ",numero ,"+", numero -1, "es", suma)
+
