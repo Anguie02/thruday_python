@@ -3,7 +3,7 @@
 #Pedimos el ingreso del numero
 numero = int(input("Ingrese un número :"))
 #creamos un bucle 
-for a in range(1, numero):
+for a in range(1, numero + 1):
     numero = a
     #Realizamos la suma del numero actual y el anterior
     suma = numero + (numero -1)
