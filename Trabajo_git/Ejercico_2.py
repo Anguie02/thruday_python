@@ -1,4 +1,3 @@
-#Algoritmo del numero actual y el anterior
-#
-
-for actual in range ():
+#Algoritmo del numero actual y el anterior 
+#incializamos la variable suma
+suma = 0
