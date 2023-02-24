@@ -5,5 +5,6 @@ suma = 0
 #creamos un bucle 
 for a in range(5):
     numeros = a
+    #acumulamos la suma
     suma += numeros
-    print("°", numeros)
+    
