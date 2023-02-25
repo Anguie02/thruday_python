@@ -1,3 +1,10 @@
 #Algoritmo que muestre numeros divibles entre 5 de una lista
 #Creamos una lista
 lista_numeros = [22,14,55,17,20]
+#Creamos una lista vacía para almacenar los números divisibles
+lista_divisibles = []
+#creamos un bucle para leer cada elemento de la lista 
+# y comprobamos la divisibilida con condicionales
+for a in lista_numeros:
+    
+
