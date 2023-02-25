@@ -6,5 +6,7 @@ lista_divisibles = []
 #creamos un bucle para leer cada elemento de la lista 
 # y comprobamos la divisibilida con condicionales
 for a in lista_numeros:
-    
+    if a % 5 == 0:
+        #True: Agregamos a la lista vacía
+        lista_divisibles.append(a)
 
