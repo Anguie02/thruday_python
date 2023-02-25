@@ -9,4 +9,7 @@ for a in lista_numeros:
     if a % 5 == 0:
         #True: Agregamos a la lista vacía
         lista_divisibles.append(a)
+#Muestra de números divisibles
+print(lista_divisibles)
+
 
