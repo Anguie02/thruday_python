@@ -11,9 +11,13 @@ ventana.title("Hello !")
 ventana.geometry("600x400")
 #añadimos widgest o controles que van dentro de la ventana
 etiqueta = Label(ventana, text="Esto es un label")
+etiqueta.config(bg="pink")
 etiqueta.pack()
 #añadimos  otro widget que será el botón
 botón = Button(ventana, text="CLICK", command=mifuncion)#creamos una función para que sea ejecutada
+#configuramos el color
+botón.config(bg="sky blue")
 botón.pack()#lo empaquetamos para que funcione
+
 #añadimos el bucles
 ventana.mainloop()
