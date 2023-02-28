@@ -4,7 +4,9 @@ from tkinter import Tk, Label, Button, Entry
 def fsumar():
     n1 = caja_text.get()#con el método get obtenemos el valor de la caja de texto
     n2 = caja_text2.get()
-    r = float(n1) +float(n2) 
+    r = float(n1) + float(n2) 
+    #colocamos "r" en la caja de texto 3
+    caja_text3.insert(0, r)#Insert para colocar el resultado, a partir de la posición 0 coloque lo que viene en r
 
 #creamos la ventana principal
 vent_principal = Tk()
