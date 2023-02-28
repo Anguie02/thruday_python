@@ -9,5 +9,8 @@ ventana.geometry("600x400")
 #añadimos widgest o controles que van dentro de la ventana
 etiqueta = Label(ventana, text="Esto es un label")
 etiqueta.pack()
+#añadimos  otro widget que será el botón
+botón = Button(ventana, text="CLICK")
+botón.pack()#lo empaquetamos para que funcione
 #añadimos el bucle
 ventana.mainloop()
