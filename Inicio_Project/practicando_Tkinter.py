@@ -4,5 +4,7 @@ from tkinter import *
 ventana = Tk()
 #añadimos un titulo
 ventana.title("Hello !")
+#configuramos las dimenciones de la ventana
+ventana.geometry("600x400")
 #añadimos el bucle
 ventana.mainloop()
