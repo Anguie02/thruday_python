@@ -7,5 +7,8 @@ window.title("Ferretería El Tornillo Feliz ")
 window.geometry("600x400")
 #Añadimos un icono
 window.iconbitmap("tornillo.ico")
+#Añadimos la clase Label
+caja_dni = Label(window, text="DNI", bg="sky blue")
+caja_dni.place(x=10,y=10,width=100, height=30)
 
 window.mainloop()
