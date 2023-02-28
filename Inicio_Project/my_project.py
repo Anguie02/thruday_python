@@ -16,4 +16,7 @@ caja_apellidos.place(x=10,y=50,width=100, height=30)
 #Añadimos la etiqueta para Nombres
 caja_nombres = Label(window, text="Nombres", bg="sky blue")
 caja_nombres.place(x=10,y=90,width=100, height=30)
+#Añadimos la etiqueta para Dirección
+caja_direccion = Label(window, text="Dirección", bg="sky blue")
+caja_direccion.place(x=10,y=130,width=100, height=30)
 window.mainloop()
