@@ -31,10 +31,10 @@ caja_direccion = Label(window, text="Dirección", bg="sky blue")
 caja_direccion.place(x=10,y=130,width=100, height=30)
 #caja texto
 caja_txt3 = Entry(window)
-caja_txt3.place(x=120,y=130,width=100,height=30)
+caja_txt3.place(x=120,y=130,width=130,height=30)
 #Añadimos la etiqueta Telefono
 caja_telefono = Label(window, text="Telefono", bg="sky blue")
-caja_telefono.place(x=250,y=130,width=100, height=30)
+caja_telefono.place(x=310,y=130,width=100, height=30)
 #Caja texto
 caja_txt1 = Entry(window)
 caja_txt1.place(x=120,y=170,width=100,height=30)
