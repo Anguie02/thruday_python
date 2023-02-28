@@ -38,4 +38,10 @@ caja_telefono.place(x=310,y=130,width=100, height=30)
 #Caja texto
 caja_txt5 = Entry(window)
 caja_txt5.place(x=420,y=130,width=100,height=30)
+#Añadir etiqueta y caja de texto para el código del producto
+caja_codigo = Label(window, text="Cod_Prod", bg="sky blue")
+caja_codigo.place(x=10,y=180,width=100,height=30)
+
+caja_text6 = Entry(window)
+caja_text6.place(x=120,y=180,width=100,height=30)
 window.mainloop()
