@@ -19,4 +19,7 @@ caja_nombres.place(x=10,y=90,width=100, height=30)
 #Añadimos la etiqueta para Dirección
 caja_direccion = Label(window, text="Dirección", bg="sky blue")
 caja_direccion.place(x=10,y=130,width=100, height=30)
+#Añadimos la etiqueta Telefono
+caja_telefono = Label(window, text="Telefono", bg="sky blue")
+caja_telefono.place(x=10,y=170,width=100, height=30)
 window.mainloop()
