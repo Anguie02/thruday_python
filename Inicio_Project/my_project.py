@@ -10,5 +10,7 @@ window.iconbitmap("tornillo.ico")
 #Añadimos la clase Label
 caja_dni = Label(window, text="DNI", bg="sky blue")
 caja_dni.place(x=10,y=10,width=100, height=30)
-
+#Añadimos la etiqueta
+caja_apellidos = Label(window, text="Apellidos", bg="sky blue")
+caja_apellidos.place(x=10,y=50,width=100, height=30)
 window.mainloop()
