@@ -1,5 +1,10 @@
 #Improtamos tkinte
 from tkinter import *
+#Definimos la fincion para imprimir
+def imprimir_todo():
+    #Guardamos los datos en variables
+    dni = caja_txt1.get()
+
 #Creamos la ventana principal(un objeto) a partir de la clase TK
 window = Tk()
 #Agregamos un titulo y definimos las dimenciones de la ventana
@@ -63,7 +68,7 @@ caja_precio.place(x=10,y=230,width=100, height=30)
 caja_txt7 = Entry(window)
 caja_txt7.place(x=120,y=230,width=100,height=30)
 #Añadimos un boton para imprimir
-imprimir = Button(window,text="IMPRIMIR")
+imprimir = Button(window,text="IMPRIMIR",command=imprimir_todo)
 imprimir.place(x=10,y=290,width=100,height=30)
 
 window.mainloop()
