@@ -69,7 +69,7 @@ caja_precio.place(x=10,y=230,width=100, height=30)
 caja_txt7 = Entry(window)
 caja_txt7.place(x=120,y=230,width=100,height=30)
 #Añadimos un boton para imprimir
-imprimir = Button(window,text="IMPRIMIR",command=imprimir_todo)
+imprimir = Button(window,text="IMPRIMIR",command=imprimir_todo)#Ya podemos usar la función  en el boton para imprimir
 imprimir.place(x=10,y=290,width=100,height=30)
 
 window.mainloop()
