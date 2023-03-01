@@ -44,4 +44,10 @@ caja_codigo.place(x=10,y=180,width=100,height=30)
 
 caja_text6 = Entry(window)
 caja_text6.place(x=120,y=180,width=100,height=30)
+#Añadir etiqueta y caja de texto para la cantida
+caja_cantidad = Label(window, text="Cantidad", bg="sky blue")
+caja_cantidad.place(x=310,y=180,width=100, height=30)
+#cja de texto
+caja_txt7 = Entry(window)
+caja_txt7.place(x=420,y=180,width=100,height=30)
 window.mainloop()
