@@ -56,4 +56,11 @@ boton.place(x=310,y=230,width=100,height=30)
 #Añadimos una caja de texto, en el cual mostraremos el total
 caja_txt8= Entry(window)
 caja_txt8.place(x=420,y=230,width=100,height=30)
+#Añadimso una etiqueta y caja de texto para precios del producto
+caja_precio = Label(window, text="Precio", bg="sky blue")
+caja_precio.place(x=10,y=230,width=100, height=30)
+#caja de texto
+caja_txt7 = Entry(window)
+caja_txt7.place(x=120,y=230,width=100,height=30)
+
 window.mainloop()
