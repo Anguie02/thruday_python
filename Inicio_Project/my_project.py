@@ -50,4 +50,7 @@ caja_cantidad.place(x=310,y=180,width=100, height=30)
 #cja de texto
 caja_txt7 = Entry(window)
 caja_txt7.place(x=420,y=180,width=100,height=30)
+#Añadimos un boton 
+boton = Button(window,text="TOTAL")
+boton.place(x=10,y=230,width=100,height=30)
 window.mainloop()
