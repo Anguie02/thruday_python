@@ -3,8 +3,9 @@ from tkinter import *
 #Definimos la fincion para imprimir
 def imprimir_todo():
     #Guardamos los datos en variables
-    dni = caja_txt1.get()
-    return print(dni)
+    dni, apellidos = caja_txt1.get(),caja_txt2.get()
+    return print(dni,"\n", apellidos)
+           
 
 #Creamos la ventana principal(un objeto) a partir de la clase TK
 window = Tk()
