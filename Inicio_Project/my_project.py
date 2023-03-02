@@ -3,7 +3,7 @@ from tkinter import *
 #Definimos la fincion para imprimir
 def imprimir_todo():
     #Guardamos los datos en variables
-    dni, apellidos = caja_txt1.get(),caja_txt2.get()
+    dni, apellidos, nombres ,direccion,telefono,codigo,cantidad,precio= caja_txt1.get(),caja_txt2.get(), caja_txt3.get(),caja_txt4.get(),caja_txt5.get(),caja_text6(),caja_txt7.get(), caja_txt8.get()
     return print(dni,"\n", apellidos)
            
 
@@ -67,8 +67,8 @@ caja_txt8.place(x=420,y=230,width=100,height=30)
 caja_precio = Label(window, text="Precio", bg="sky blue")
 caja_precio.place(x=10,y=230,width=100, height=30)
 #caja de texto
-caja_txt7 = Entry(window)
-caja_txt7.place(x=120,y=230,width=100,height=30)
+caja_txt9 = Entry(window)
+caja_txt9.place(x=120,y=230,width=100,height=30)
 #Añadimos un boton para imprimir
 imprimir = Button(window,text="IMPRIMIR",command=imprimir_todo)#Ya podemos usar la función  en el boton para imprimir
 imprimir.place(x=10,y=290,width=100,height=30)
