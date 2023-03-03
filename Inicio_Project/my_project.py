@@ -4,7 +4,7 @@ from tkinter import *
 def imprimir_todo():
     #Guardamos los datos en variables
     dni,apellidos,nombres,direccion,telefono,codigo, cantidad, precio = caja_txt1.get(), caja_txt2.get(), caja_txt3.get(), caja_txt4.get(), caja_txt5.get(), caja_text6.get(), caja_txt7.get(), caja_txt8.get()
-    return print("\nDNI: ",dni, "\nApellidos: ", apellidos, "\nNombres: ", nombres, "\nDirección: ", direccion,"\nTeléfono: ", telefono,"\nCod_prod", codigo, "\nCantidad: ", cantidad, "\nPrecio_unidad: ", precio)
+    return print("\nDNI:            ",dni, "\nApellidos:      ", apellidos, "\nNombres:        ", nombres, "\nDirección:      ", direccion,"\nTeléfono:       ", telefono,"\nCod_prod:       ", codigo, "\nCantidad:       ", cantidad, "\nPrecio_unidad:  ", precio)
            
 
 #Creamos la ventana principal(un objeto) a partir de la clase TK
